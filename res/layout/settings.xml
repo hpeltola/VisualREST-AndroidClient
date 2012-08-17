@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnVrestSettings"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/VrestAccountSettings" />
+
+        <ImageView
+            android:id="@+id/accountOKIcon"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/descAccountIcon"
+            android:src="@drawable/wait_32" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnDeviceSettings"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/devicesettings" />
+
+        <ImageView
+            android:id="@+id/deviceOKIcon"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/descDeviceIcon"
+            android:src="@drawable/wait_32" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnAutomaticMetadataUpload"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/startAutomaticMetadataUpload" />
+
+        <ImageView
+            android:id="@+id/automaticMetadataUploadOKIcon"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/automaticMetadataUpload"
+            android:src="@drawable/offline_32" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnXMPPSettings"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/startXMPPService" />
+
+        <ImageView
+            android:id="@+id/XMPPOKIcon"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/descDeviceIcon"
+            android:src="@drawable/offline_32" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnAddedFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/containerFiles" />
+    </TableRow>
+
+</TableLayout>

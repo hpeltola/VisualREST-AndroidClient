@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VisualREST</string>
+    <string name="descAccountIcon">Authentication to account</string>
+    <string name="descDeviceIcon">Device registered</string>
+    <string name="containerFiles">Container files</string>
+    <string name="addSelectedToContainer">Add selected photos to container</string>
+    <string name="EditPhotoMetadata">Edit photo metadata</string>
+    <string name="uploadEssence">Upload essence</string>
+    <string name="uploadFacebook">Send to Facebook</string>
+    <string name="uploadFlickr">Send to Flickr</string>
+    <string name="uploadDropbox">Send to Dropbox</string>
+    <string name="automaticMetadataUpload">Automatic metadata upload</string>
+    <string name="startAutomaticMetadataUpload">Start automatic metadata upload</string>
+    <string name="stopAutomaticMetadataUpload">Stop automatic metadata upload</string>
+    <string name="image">image</string>
+    <string name="photoCaption">Photo caption</string>
+    <string name="value">value</string>
+    <string name="all">All</string>
+    <string name="VisualREST_Services">VisualREST Services</string>
+    <string name="Automatic_upload">Automatic Upload</string>
+    <string name="XMPPService">XMPP Service</string>
+    <string name="save">Save</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="deviceName">Device name</string>
+    <string name="testConnection">Test connection</string>
+    <string name="register">Register this device as a container</string>
+    <string name="unregister">Unregister this device</string>
+    <string name="close">Close</string>
+    <string name="dependingOnConnectivity">Depending on your connectivity, this may take a while.</string>
+    <string name="continueBackground">You may close this view and the upload will continue on background.</string>
+    <string name="devicesettings">Device Settings</string>
+    <string name="startXMPPService">Start XMPP service</string>
+    <string name="stopXMPPService">Stop XMPP service</string>
+    <string name="XMPPServiceStarted">XMPP service Started</string>
+    <string name="VrestAccountSettings">VisualREST account settings</string>
+    <string name="accountSettingsPath">VisualREST>Settings>Account</string>
+    <string name="deviceSettings">Device settings</string>
+    <string name="showAllTips">Show view tips</string>
+    <string name="noMoreThisTip">No more this tip</string>
+    <string name="noMoreTips">No more tips</string>
+    <string name="ok">OK</string>
+
+</resources>

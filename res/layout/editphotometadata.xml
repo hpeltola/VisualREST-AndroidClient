@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/img_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMetadata"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/areaspinner"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:drawSelectorOnTop="true"
+                android:padding="5dip"
+                android:paddingLeft="10dip" />
+
+            <EditText
+                android:id="@+id/et_metadata"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/value" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/save" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnUploadEssence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uploadEssence" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnUploadFacebook"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/uploadFacebook" />
+
+            <ImageView
+                android:id="@+id/img_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/image"
+                android:paddingTop="7dp"
+                android:src="@drawable/facebook_logo_32" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnUploadFlickr"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/uploadFlickr" />
+
+            <ImageView
+                android:id="@+id/img_flickr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/image"
+                android:paddingTop="7dp"
+                android:src="@drawable/flickr_logo_32" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnUploadDropbox"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/uploadDropbox" />
+
+            <ImageView
+                android:id="@+id/img_dropbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/image"
+                android:paddingTop="7dp"
+                android:src="@drawable/dropbox_logo_32" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

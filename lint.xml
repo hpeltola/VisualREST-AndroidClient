@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+
+    <issue id="IconMissingDensityFolder" >
+
+        <ignore path="res" />
+    </issue>
+
+    <issue id="UseCompoundDrawables" >
+
+        <ignore path="res/layout/widget_layout.xml" />
+    </issue>
+
+</lint>

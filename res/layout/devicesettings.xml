@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_deviceName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/txt_deviceName"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/deviceName" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/register" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnUnregister"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/unregister" />
+    </TableRow>
+
+</TableLayout>
